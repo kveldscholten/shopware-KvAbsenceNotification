@@ -10,7 +10,7 @@ Auf der Artikel Detail Seite wird dem Kunden dargestellt ab wann der Artikel wie
 Nach Abschluss der Bestellung wird der Kunde durch eine Info Alert Message noch mal auf die Abwesenheit hingewiesen.
 ![Frontend Bestell Abschluss mit Abwesenheitsmeldung](/Documentation/kv_absence_notification_checkout_finish.jpg)
 
-Es ist möglich den Kunden die Abwesenheitsmeldung schon vor Eintritt der Abwesenheit darzustellen durch angebe eines Intervalls.
+Es ist möglich den Kunden die Abwesenheitsmeldung schon vor Eintritt der Abwesenheit darzustellen durch Angabe eines Intervalls.
 ![Backend Konfiguration der Abwesenheitsmeldung](/Documentation/kv_absence_notification_backend.jpg)
 
 Die Benachrichtigung der Abwesenheit verschwindet automatisch nach Ende der Abwesenheit.
