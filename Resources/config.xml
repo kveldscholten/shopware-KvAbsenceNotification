@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="date" scope="shop">
+            <name>absenceNotificationFrom</name>
+            <label lang="de">Von</label>
+            <label lang="en">From</label>
+        </element>
+        <element required="true" type="date" scope="shop">
+            <name>absenceNotificationTo</name>
+            <label lang="de">Bis</label>
+            <label lang="en">To</label>
+        </element>
+        <element required="true" type="html" scope="shop">
+            <name>absenceNotificationDescription</name>
+            <label lang="de">Beschreibung</label>
+            <label lang="en">Description</label>
+            <value>Ich befinde mich vom %from% - %to% im Urlaub. Der Versand der Pakete erfolgt wieder ab %shipment%.</value>
+            <description lang="de">Platzhalter:\n%from%\n%to%\n%shipment%</description>
+            <description lang="en">Placeholder:\n%from%\n%to%\n%shipment%</description>
+        </element>
+        <element required="true" type="interval" scope="shop">
+            <name>absenceNotificationInterval</name>
+            <label lang="de">Interval</label>
+            <label lang="en">Interval</label>
+            <value>0</value>
+            <description lang="de">Wieviel eher die Benachrichtigung angezeigt werden soll vor beginn</description>
+            <description lang="en">How much more the notification should be displayed before beginning</description>
+        </element>
+        <element type="date" scope="shop">
+            <name>absenceNotificationShipment</name>
+            <label lang="de">Paketversand</label>
+            <label lang="en">Interval</label>
+            <description lang="de">Ab wann der Versand wieder erfolgt</description>
+            <description lang="en">When the packages will be sent</description>
+        </element>
+    </elements>
+</config>

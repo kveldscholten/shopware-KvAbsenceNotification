@@ -1,0 +1,45 @@
+.kv-absence-notification {
+  background: white;
+  text-align: center;
+  .unitize-padding(10, 10);
+  border-bottom: 1px solid @brand-primary;
+}
+
+.product--delivery {
+  .delivery-kv-absence-notification--status-shipping {
+    color: @highlight-info;
+  }
+
+  .delivery--status-icon {
+    &.delivery-kv-absence-notification--status-shipping {
+      background: @highlight-info;
+    }
+  }
+}
+
+.is--ctl-checkout {
+  &.is--minimal-header {
+    .kv-absence-notification {
+      display: none;
+    }
+  }
+
+  &.is--act-finish {
+    .alert {
+      &.is--info {
+        .unitize(margin-top, 16);
+
+        @media screen and (min-width: @tabletViewportWidth) {
+          .unitize(margin-top, 20);
+        }
+        @media screen and (min-width: @desktopViewportWidth) {
+          .unitize(margin-top, 45);
+        }
+      }
+    }
+
+    .finish--content {
+      .unitize(padding-top, 20);
+    }
+  }
+}

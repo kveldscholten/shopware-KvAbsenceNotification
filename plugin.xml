@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de"><![CDATA[Abwesenheitsmeldung]]></label>
+    <label lang="en"><![CDATA[Absence notification]]></label>
+
+    <version>1.0.0</version>
+    <copyright>(c) Kevin Veldscholten</copyright>
+    <author>Kevin Veldscholten</author>
+    <compatibility minVersion="5.3.00" />
+
+    <description lang="de">Dieses Plugin gibt euch die Möglichkeit euren Kunden über eure Abwesenheit zu informieren.</description>
+    <description lang="en">This plugin gives you the possibility to inform your customers about your absence.</description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Veröffentlichung des Plugins</changes>
+        <changes lang="en">This is the first release.</changes>
+    </changelog>
+</plugin>
