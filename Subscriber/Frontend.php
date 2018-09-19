@@ -17,7 +17,7 @@ class Frontend implements SubscriberInterface
     public static function getSubscribedEvents()
     {
         return [
-            'Enlight_Controller_Action_PostDispatch' => 'onFrontend'
+            'Enlight_Controller_Action_PostDispatch_Frontend' => 'onFrontend'
         ];
     }
 
